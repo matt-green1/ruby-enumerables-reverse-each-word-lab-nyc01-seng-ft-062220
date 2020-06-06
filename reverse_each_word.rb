@@ -9,10 +9,9 @@
 
 def reverse_each_word(string)
   array = string.split(" ")
-  new_string = ""
-  array.each{|element| new_string += element.reverse}
-  puts new_string
-  return new_string
+  new_array = []
+  array.each{|element| new_array.push(element.reverse)}
+  return new_array
 end
 
 reverse_each_word("Hello there, and how are you?")
