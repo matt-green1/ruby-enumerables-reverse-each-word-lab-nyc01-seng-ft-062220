@@ -12,6 +12,7 @@ def reverse_each_word(string)
   new_array = []
   array.each{|element| new_array.push(element.reverse)}
   reversed_string = new_array.join(" ")
+  puts reversed_string
   return reversed_string
 end
 
