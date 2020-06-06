@@ -5,4 +5,4 @@ def reverse_each_word(string)
   puts array
 end
 
-reverse_each_word("hello there I want to")
+reverse_each_word("Hello there, and how are you?")
