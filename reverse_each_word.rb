@@ -1,11 +1,11 @@
-def reverse_each_word(string)
-  array = string.split(" ")
-  array.collect{|element| element.reverse}
-end
+#def reverse_each_word(string)
+  #array = string.split(" ")
+  #array.collect{|element| element.reverse}
+#end
 
 
 
-=begin
+
 
 def reverse_each_word(string)
   array = string.split(" ")
@@ -17,4 +17,3 @@ end
 
 reverse_each_word("Hello there, and how are you?")
 
-=end
